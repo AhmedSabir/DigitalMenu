@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>385365488715-1h9ubv688og85as8t8l7f4cvb7ke0es3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.385365488715-1h9ubv688og85as8t8l7f4cvb7ke0es3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDI9Z2XhSexElCrLxoZwzX6GnRYQc0YK94</string>
+	<key>GCM_SENDER_ID</key>
+	<string>385365488715</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.ionic.tmm-emenu</string>
+	<key>PROJECT_ID</key>
+	<string>tmm-emenu</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tmm-emenu.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:385365488715:ios:c181e34cb8e3f069</string>
+	<key>DATABASE_URL</key>
+	<string>https://tmm-emenu.firebaseio.com</string>
+</dict>
+</plist>

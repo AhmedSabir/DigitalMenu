@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Brands" representedClassName="Brands" syncable="YES">
+        <attribute name="brandID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brandLogo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brandName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brandNameAra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brandSeq" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facebook" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="feedback" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="instagram" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mandarin" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="russian" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="telephone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="themeID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="CategoryCoreData" representedClassName="CategoryCoreData" syncable="YES">
+        <attribute name="catID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="catNameAra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="catNameEng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="catNameMan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="catNameRus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="catSequence" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="FeedbackData" representedClassName="FeedbackData" syncable="YES">
+        <attribute name="branchName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="datetime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="que" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="response" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="udid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ImageSlideCoreData" representedClassName="ImageSlideCoreData" syncable="YES" codeGenerationType="class"/>
+    <entity name="ItemsCoreData" representedClassName="ItemsCoreData" syncable="YES">
+        <attribute name="brandID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="catID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="catName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="catNameAra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="catNameMan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="catNameRus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="catSeq" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imageGIF" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ingredientAra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ingredientEng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ingredientMan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ingredientRus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFav" optional="YES" attributeType="Integer 32" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isVideo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemNameAr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemNameMan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemNameRus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemSeq" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SettingDataCore" representedClassName="SettingDataCore" syncable="YES">
+        <attribute name="branchName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ipAddress" optional="YES" attributeType="String" defaultValueString="192.168.1.1" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="port" optional="YES" attributeType="Integer 32" defaultValueString="80" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="second" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="SlideData" representedClassName="SlideData" syncable="YES"/>
+    <entity name="SlideShow" representedClassName="SlideShow" syncable="YES">
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Themes" representedClassName="Themes" syncable="YES">
+        <attribute name="arabicButton" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="background" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryActive" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryInactive" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="englishButton" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontColorIngName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontColorItemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontColorPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemBackgroundColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="popupBackground" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="themeID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="themeName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Brands" positionX="187" positionY="9" width="128" height="240"/>
+        <element name="CategoryCoreData" positionX="-45" positionY="144" width="128" height="135"/>
+        <element name="FeedbackData" positionX="-189" positionY="45" width="128" height="180"/>
+        <element name="ImageSlideCoreData" positionX="160" positionY="225" width="128" height="45"/>
+        <element name="ItemsCoreData" positionX="-216" positionY="9" width="128" height="390"/>
+        <element name="SettingDataCore" positionX="-389" positionY="18" width="128" height="120"/>
+        <element name="SlideData" positionX="133" positionY="-99" width="128" height="43"/>
+        <element name="SlideShow" positionX="-54" positionY="303" width="128" height="58"/>
+        <element name="Themes" positionX="-47" positionY="-99" width="128" height="240"/>
+    </elements>
+</model>

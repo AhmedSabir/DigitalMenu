@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Brands" representedClassName="Brands" syncable="YES">
+        <attribute name="brandID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="brandLogo" optional="YES" attributeType="String"/>
+        <attribute name="brandName" optional="YES" attributeType="String"/>
+        <attribute name="brandNameAra" optional="YES" attributeType="String"/>
+        <attribute name="brandSeq" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String"/>
+        <attribute name="facebook" optional="YES" attributeType="String"/>
+        <attribute name="feedback" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="instagram" optional="YES" attributeType="String"/>
+        <attribute name="mandarin" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="orderTaking" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="russian" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="telephone" optional="YES" attributeType="String"/>
+        <attribute name="themeID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="CategoryCoreData" representedClassName="CategoryCoreData" syncable="YES">
+        <attribute name="categoryNameBangladeshi" optional="YES" attributeType="String"/>
+        <attribute name="categoryNameChinese" optional="YES" attributeType="String"/>
+        <attribute name="categoryNameFrench" optional="YES" attributeType="String"/>
+        <attribute name="categoryNameGermany" optional="YES" attributeType="String"/>
+        <attribute name="categoryNameHindi" optional="YES" attributeType="String"/>
+        <attribute name="categoryNameIraninan" optional="YES" attributeType="String"/>
+        <attribute name="categoryNameItalian" optional="YES" attributeType="String"/>
+        <attribute name="categoryNameKorean" optional="YES" attributeType="String"/>
+        <attribute name="categoryNamePhilippines" optional="YES" attributeType="String"/>
+        <attribute name="categoryNameSpain" optional="YES" attributeType="String"/>
+        <attribute name="categoryNameSrilanka" optional="YES" attributeType="String"/>
+        <attribute name="categoryNameTurkish" optional="YES" attributeType="String"/>
+        <attribute name="categoryNameUrdu" optional="YES" attributeType="String"/>
+        <attribute name="catID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="catNameAra" optional="YES" attributeType="String"/>
+        <attribute name="catNameEng" optional="YES" attributeType="String"/>
+        <attribute name="catNameMan" optional="YES" attributeType="String"/>
+        <attribute name="catNameRus" optional="YES" attributeType="String"/>
+        <attribute name="catSequence" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Extra" representedClassName="Extra" syncable="YES">
+        <attribute name="brandId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="extraID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="extraName" optional="YES" attributeType="String"/>
+        <attribute name="extraNameArabic" optional="YES" attributeType="String"/>
+        <attribute name="imageName" optional="YES" attributeType="String"/>
+        <attribute name="itemID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FeedbackData" representedClassName="FeedbackData" syncable="YES">
+        <attribute name="branchName" optional="YES" attributeType="String"/>
+        <attribute name="datetime" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="mobie" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="que" optional="YES" attributeType="String"/>
+        <attribute name="response" optional="YES" attributeType="String"/>
+        <attribute name="resType" optional="YES" attributeType="String"/>
+        <attribute name="udid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ItemsCoreData" representedClassName="ItemsCoreData" syncable="YES">
+        <attribute name="brandID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="catID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="catName" optional="YES" attributeType="String"/>
+        <attribute name="catNameAra" optional="YES" attributeType="String"/>
+        <attribute name="catNameMan" optional="YES" attributeType="String"/>
+        <attribute name="catNameRus" optional="YES" attributeType="String"/>
+        <attribute name="catSeq" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageGIF" optional="YES" attributeType="Binary"/>
+        <attribute name="imageName" optional="YES" attributeType="String"/>
+        <attribute name="ingredientAra" optional="YES" attributeType="String"/>
+        <attribute name="ingredientBangladeshi" optional="YES" attributeType="String"/>
+        <attribute name="ingredientChinese" optional="YES" attributeType="String"/>
+        <attribute name="ingredientEng" optional="YES" attributeType="String"/>
+        <attribute name="ingredientIranian" optional="YES" attributeType="String"/>
+        <attribute name="ingredientItalian" optional="YES" attributeType="String"/>
+        <attribute name="ingredientKorean" optional="YES" attributeType="String"/>
+        <attribute name="ingredientMan" optional="YES" attributeType="String"/>
+        <attribute name="ingredientPhilippines" optional="YES" attributeType="String"/>
+        <attribute name="ingredientRus" optional="YES" attributeType="String"/>
+        <attribute name="ingredientSpain" optional="YES" attributeType="String"/>
+        <attribute name="ingredientSrilanka" optional="YES" attributeType="String"/>
+        <attribute name="ingredientTurkish" optional="YES" attributeType="String"/>
+        <attribute name="ingredientUrdu" optional="YES" attributeType="String"/>
+        <attribute name="ingridentFrench" optional="YES" attributeType="String"/>
+        <attribute name="ingridentGermany" optional="YES" attributeType="String"/>
+        <attribute name="ingridentHindi" optional="YES" attributeType="String"/>
+        <attribute name="isCheck" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isFav" optional="YES" attributeType="Integer 32" usesScalarValueType="YES"/>
+        <attribute name="isOtherLanguages" optional="YES" attributeType="String"/>
+        <attribute name="isVideo" optional="YES" attributeType="String"/>
+        <attribute name="itemID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String"/>
+        <attribute name="itemNameAr" optional="YES" attributeType="String"/>
+        <attribute name="itemNamebangladeshi" optional="YES" attributeType="String"/>
+        <attribute name="itemNameChinese" optional="YES" attributeType="String"/>
+        <attribute name="itemNameFrench" optional="YES" attributeType="String"/>
+        <attribute name="itemNameGermany" optional="YES" attributeType="String"/>
+        <attribute name="itemNameHindi" optional="YES" attributeType="String"/>
+        <attribute name="itemNameIranian" optional="YES" attributeType="String"/>
+        <attribute name="itemNameItalian" optional="YES" attributeType="String"/>
+        <attribute name="itemNameKorean" optional="YES" attributeType="String"/>
+        <attribute name="itemNameMan" optional="YES" attributeType="String"/>
+        <attribute name="itemNamePhilippines" optional="YES" attributeType="String"/>
+        <attribute name="itemNameRus" optional="YES" attributeType="String"/>
+        <attribute name="itemNameSpain" optional="YES" attributeType="String"/>
+        <attribute name="itemNameSrilanka" optional="YES" attributeType="String"/>
+        <attribute name="itemNameTurkish" optional="YES" attributeType="String"/>
+        <attribute name="itemNameUrdu" optional="YES" attributeType="String"/>
+        <attribute name="itemSeq" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="orderItemID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="qty" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="video" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LayoutType" representedClassName="LayoutType" syncable="YES">
+        <attribute name="brandID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="feedbackID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="layoutId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="themeID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="SettingDataCore" representedClassName="SettingDataCore" syncable="YES">
+        <attribute name="branchName" optional="YES" attributeType="String"/>
+        <attribute name="ipAddress" optional="YES" attributeType="String" defaultValueString="192.168.1.1"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="port" optional="YES" attributeType="Integer 32" defaultValueString="80" usesScalarValueType="YES"/>
+        <attribute name="second" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="SlideData" representedClassName="SlideData" syncable="YES"/>
+    <entity name="SlideShow" representedClassName="SlideShow" syncable="YES">
+        <attribute name="imageName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Themes" representedClassName="Themes" syncable="YES">
+        <attribute name="arabicButton" optional="YES" attributeType="String"/>
+        <attribute name="background" optional="YES" attributeType="String"/>
+        <attribute name="categoryActive" optional="YES" attributeType="String"/>
+        <attribute name="categoryInactive" optional="YES" attributeType="String"/>
+        <attribute name="englishButton" optional="YES" attributeType="String"/>
+        <attribute name="fontColor" optional="YES" attributeType="String"/>
+        <attribute name="fontColorIngName" optional="YES" attributeType="String"/>
+        <attribute name="fontColorItemName" optional="YES" attributeType="String"/>
+        <attribute name="fontColorPrice" optional="YES" attributeType="String"/>
+        <attribute name="homeScreen" optional="YES" attributeType="String"/>
+        <attribute name="itemBackgroundColor" optional="YES" attributeType="String"/>
+        <attribute name="leftArrow" optional="YES" attributeType="String"/>
+        <attribute name="popupBackground" optional="YES" attributeType="String"/>
+        <attribute name="promotion" optional="YES" attributeType="String"/>
+        <attribute name="rightTop" optional="YES" attributeType="String"/>
+        <attribute name="separatorLine" optional="YES" attributeType="String"/>
+        <attribute name="setting" optional="YES" attributeType="String"/>
+        <attribute name="themeID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="themeName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Themes_new" representedClassName="Themes_new" syncable="YES">
+        <attribute name="back_Button_Background_Color" optional="YES" attributeType="String"/>
+        <attribute name="back_Button_Font_Color" optional="YES" attributeType="String"/>
+        <attribute name="brandID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="category_Background_Color" optional="YES" attributeType="String"/>
+        <attribute name="category_Button_Active_Img" optional="YES" attributeType="String"/>
+        <attribute name="category_Button_In_Active_Img" optional="YES" attributeType="String"/>
+        <attribute name="category_Font_Color" optional="YES" attributeType="String"/>
+        <attribute name="category_Font_Color_as_Heading" optional="YES" attributeType="String"/>
+        <attribute name="category_Screen_Wallpaper" optional="YES" attributeType="String"/>
+        <attribute name="feedback_Button_Background_Color" optional="YES" attributeType="String"/>
+        <attribute name="feedback_Button_Font_Color" optional="YES" attributeType="String"/>
+        <attribute name="home_Screen_Wallpaper" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="item_Background_Color" optional="YES" attributeType="String"/>
+        <attribute name="item_Detail_Background_color" optional="YES" attributeType="String"/>
+        <attribute name="item_Detail_Ingredient_Font_Color" optional="YES" attributeType="String"/>
+        <attribute name="item_Detail_Item_Font_Color" optional="YES" attributeType="String"/>
+        <attribute name="item_Detail_Price_Font_Color" optional="YES" attributeType="String"/>
+        <attribute name="item_Detail_Screen_Wallpaper" optional="YES" attributeType="String"/>
+        <attribute name="item_Font_Color" optional="YES" attributeType="String"/>
+        <attribute name="item_Price_Font_Color" optional="YES" attributeType="String"/>
+        <attribute name="item_Screen_Wallpaper" optional="YES" attributeType="String"/>
+        <attribute name="items_buttons_image_fit" optional="YES" attributeType="String"/>
+        <attribute name="language_Button_Background_Color" optional="YES" attributeType="String"/>
+        <attribute name="language_Button_Font_Color" optional="YES" attributeType="String"/>
+        <attribute name="menu_Button_Background_Color" optional="YES" attributeType="String"/>
+        <attribute name="menu_Button_Font_Color" optional="YES" attributeType="String"/>
+        <attribute name="menu_Button_GIF" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Brands" positionX="187" positionY="9" width="128" height="255"/>
+        <element name="CategoryCoreData" positionX="-45" positionY="144" width="128" height="330"/>
+        <element name="Extra" positionX="-180" positionY="54" width="128" height="148"/>
+        <element name="FeedbackData" positionX="-189" positionY="45" width="128" height="180"/>
+        <element name="ItemsCoreData" positionX="-216" positionY="9" width="128" height="840"/>
+        <element name="LayoutType" positionX="-189" positionY="45" width="128" height="118"/>
+        <element name="SettingDataCore" positionX="-389" positionY="18" width="128" height="120"/>
+        <element name="SlideData" positionX="133" positionY="-99" width="128" height="43"/>
+        <element name="SlideShow" positionX="-54" positionY="303" width="128" height="58"/>
+        <element name="Themes" positionX="-47" positionY="-99" width="128" height="330"/>
+        <element name="Themes_new" positionX="-530.78125" positionY="207.30859375" width="128" height="28"/>
+    </elements>
+</model>
